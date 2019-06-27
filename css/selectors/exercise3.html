@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise #3: Styling boxes</title>
+    <style>
+        div {
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            margin: 5px;
+            float: left; /* float divs next to each other */
+            font-family: Verdana, sans-serif;
+            font-weight: bold;
+            line-height: 50px; /* align text vertically (this works only for a single line of text) */
+            text-align: center;
+        }
+        .red{
+            background-color: red;
+            font-size: 0.7em
+        }
+        .blue{
+            background-color: blue;
+            font-size: 0.7em;
+        }
+        .sevenFont{
+            color: white;
+            font-size: 0.7em;
+        }
+        .normalFont{
+            font-size: 1em;
+        }
+        .biggiestFont{
+            font-size: 1.3em;
+        }
+    </style>
+</head>
+<body>
+<div class="red">1</div>
+<div class="blue">2</div>
+<div class="red">3</div>
+<div class="blue normalFont">4</div>
+<div class="red normalFont">5</div>
+<div class="blue normalFont">6</div>
+<div class="red sevenFont">7</div>
+<div class="blue biggiestFont">8</div>
+<div class="red biggiestFont">9</div>
+<div class="blue biggiestFont">10</div>
+</body>
+</html>

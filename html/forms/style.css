@@ -1,0 +1,20 @@
+.border{
+	background-color: lightyellow;
+}
+fieldset{
+	width: 50%;
+	margin: 0 auto;
+
+	
+}
+.inputCenter{
+	  position: relative;
+	  position: absolute;  
+
+	    left: 35%;
+
+
+	  border: 1px solid #aaaaaa;
+	  margin: 0 auto;
+
+}
